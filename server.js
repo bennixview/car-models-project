@@ -15,6 +15,9 @@ const pool = new pg.Pool({
   connectionString: 'postgresql://test:test@localhost:5432/test',
 });
 
+
+export default config => {
+
 // GET request to display the list of car models
 app.get('/', async (req, res) => {
     try {
@@ -95,3 +98,6 @@ app.delete('/cars/:id', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+return app;
+}
