@@ -2,6 +2,10 @@
 
 This is a simple web application for managing car models. It allows you to view a list of car models with details such as name, code, make, and measures.
 
+This is an Example App build by chatGPT with the following instructions:
+
+act like a senior web developer. your tech stack is html css bootstrap nodejs postgresql pug. write a reusable code to create list edit delete car models with name, code, make, measures. if you have any questions feel free to ask.
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -45,6 +49,3 @@ Before you begin, ensure you have the following dependencies installed:
 
 ## Usage
 
-This is an Example App build by chatGPT with the following instructions:
-
-act like a senior web developer. your tech stack is html css bootstrap nodejs postgresql pug. write a reusable code to create list edit delete car models with name, code, make, measures. if you have any questions feel free to ask.
